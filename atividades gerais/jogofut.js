@@ -19,14 +19,46 @@ switch (etapadojog) {
     case 'semi-final':
         switch (categoria) {
             case 1:
-                
+                console.log(nomecomple,'semi-final',tipodejog, preçosemificat1, 'R$')
                 break;
                 case 2:
+                    console.log(nomecomple,'semi-final',tipodejog, preçosemificat2, 'R$')
+                    break;
+                    case 3:
+                        console.log(nomecomple,'semi-final',tipodejog, preçosemificat3, 'R$')
+                        break;
+                        case 4:
+                    console.log(nomecomple,'semi-final',tipodejog, preçosemificat4, 'R$')
+                    break;
+            default: console.log('contate a recepção, dados mau colocados')
+                break;
+        }
+    case 'final':
+        switch (categoria) {
+            case 1:
+                console.log(nomecomple, 'final', tipodejog,'quantidade comprada:', quantidade, preçofinalca1, 'R$')
+                break;
+                case 2:
+                    console.log(nomecomple, 'final', tipodejog,'quantidade comprada:', quantidade, preçofinalca2, 'R$')
+                    break;
+                    case 3:
+                        console.log(nomecomple, 'final', tipodejog,'quantidade comprada:', quantidade, preçofinalca3, 'R$')
+                        break;
+                        case 4:
+                            console.log(nomecomple, 'final', tipodejog,'quantidade comprada:', quantidade, preçofinalca4, 'R$')
+            default:
+                console.log('contate a recepção, dados não corretamente cadastrados')
+                break;
+        }
+    case '3ºfinal':
+        switch (categoria) {
+            case 1:
+                console.log(nomecomple, '3ºlugar', tipodejog, 'quantidade comprada:', quantidade, preço3lugarcat1 )
+                break;
         
             default:
                 break;
         }
-        break;
 
     default:
         break;
